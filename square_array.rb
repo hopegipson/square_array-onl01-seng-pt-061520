@@ -1,6 +1,6 @@
 
 def square_array(array)
-  array.collect |square|
+  array.collect!with_index |square|
     square = square * square
   end
 end
