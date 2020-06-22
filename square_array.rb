@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
+  brothers.each do |hippo|
+  puts "Stop hitting yourself #{hippo}!"
+end
 end
